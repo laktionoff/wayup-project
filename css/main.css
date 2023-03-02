@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #FDFCEF;;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+
+section {
+    padding-top: 120px;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.introtext {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+
+.btn {
+    background: #FF6861;
+    border-radius: 100px;
+    padding: 22px 70px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    width: 227px;
+}
+
+.btn:hover {
+    background: #cb251c
+}
+
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 79px;
+}
+
+.offer {
+    width: 465px;
+}
+
+.logo {
+    display: block;
+}
+
+.digit {
+    margin-right: 34px;
+}
+
+.digit-item {
+    display: flex;
+    align-items: center;
+}
+
+.digit-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+
+.practice-wrap {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 76px 125px 75px 122px;
+}
+
+.practice-block {
+    width: 475px;
+}
+
+.practice-title {
+    text-align: left;
+}
+
+.practice-text {
+    margin: 24px 0;
+    width: 371px;
+}
+
+.ladybug {
+    margin-left: 101px;
+}
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
